@@ -57,3 +57,14 @@ precioBase * cantidad
 ## Repositorio
 
 [Ver repositorio en GitHub](https://github.com/cadina-sandy/D1-calculadora-js)
+
+## 💡 Autor
+
+Hecho  por **Sandy Cadin Azocar** 💖
+
+---
+
+## ⭐ Gracias por visitar mi proyecto
+
+Si te gustó, puedes darle una estrella al repositorio 🌟
+
