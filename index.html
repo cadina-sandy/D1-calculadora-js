@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculando el total by Sandy</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <main class="contenedor">
+      <!-- Tarjeta del producto -->
+      <section class="tarjeta-producto">
+        <!-- Imagen del producto al centro -->
+        <img
+          class="imagen-producto"
+          src="assets/img/osito-peluche.png"
+          alt="Peluche de osito"
+        />
+
+        <h1>Peluche Osito</h1>
+
+        <p>Precio base: $<span class="precio-base"></span></p>
+
+        <div class="cantidad">
+          <p>Cantidad: <span class="cantidad-producto"></span></p>
+
+          <!-- Botones para aumentar y disminuir la cantidad -->
+          <button class="btn-sumar" type="button">+</button>
+          <button class="btn-restar" type="button">-</button>
+        </div>
+      </section>
+
+      <!-- Total que se actualiza con JavaScript -->
+      <section class="total">
+        <p>Total a pagar:</p>
+        <p>$<span class="total-pagar"></span></p>
+      </section>
+    </main>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
